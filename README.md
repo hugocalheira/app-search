@@ -1,6 +1,8 @@
 # App-Search
 
-This project was just a test chanlenge for a job.
+This project was just a test challenge for a job.
+
+A simple search page for artists and bands. Angular 7, SASS and JSON-SERVER to simulate a API REST.
 
 ## Install
 Run `sudo npm i`. If any error occurr, try run `sudo npm i --unsafe-perm node-sass`, then `sudo npm i`.
