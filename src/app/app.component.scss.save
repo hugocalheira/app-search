@@ -1,0 +1,67 @@
+.navbar {
+  height: 50px;
+}
+
+footer .navbar{
+  height: auto !important;
+}
+
+.navbar-toggler {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  margin-left: 1rem;
+}
+
+.acesso-logo {
+  background-image: url('../assets/img/acesso.png');
+  background-size: 82px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 82px;
+  text-indent: -1000rem;
+
+  }
+
+#5ad5c3
+
+}
+
+.container {
+  padding-top: 50px;
+  flex:1;
+}
+
+.btn-profile {
+  background-color: transparent;
+  padding: 0 12px;
+
+  color: #d9d9d9;
+  font-size: .8rem;
+
+  span.pic {
+    width: 30px;
+    height: 30px;
+    background-size: auto 30px;
+
+    display: inline-block;
+    border: 2px solid #d8d8d8;
+    border-radius: 25px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+
+.menuitem.pic {
+  height: 100px;
+  background-size: cover;
+}
+
+.pic {
+  display: inline-block;
+  // background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+

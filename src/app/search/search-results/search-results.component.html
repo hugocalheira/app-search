@@ -1,0 +1,68 @@
+<!-- search -->
+<!-- <section class="d-flex justify-content-center align-items-center search">
+  <form class="w-75 d-flex justify-content-center" [formGroup]="searchForm" (submit)="doSearch()" novalidate>
+    <div class="form-group w-75">
+      <div class="input-group">
+
+        <input type="text" formControlName="searchField" class="form-control form-control-lg search-field" aria-describedby="search" placeholder="Pesquise por nome, gênero ou grupo..." aria-describedby="button-addon4">
+
+        <div class="input-group-append" id="button-addon4">
+          <button class="btn btn-search" type="submit"></button>
+        </div>
+
+      </div>
+    </div>
+  </form>
+</section> -->
+<app-search-field *ngIf="!result" widthclass="w-75" (searchResult)="receiveData($event)"></app-search-field>
+
+<!-- results -->
+<section class="result mt-5 mb-5 pt-5" *ngIf="result && result.length > 0; else emptyState">
+
+  <h2>Resultados de busca para <span>"{{ inputField }}"</span></h2>
+
+  <!-- labels -->
+  <div class="mt-3 card-body d-flex table-row row-result p-2 align-items-center row-label">
+    <div class="col-1"></div>
+
+    <div class="col"><span (click)="orderBy(0)" [class.selected]="sortOrder[0].selected" [class.reverse]="!sortOrder[0].direction">Nome:</span></div>
+
+    <div class="col"><span (click)="orderBy(1)" [class.selected]="sortOrder[1].selected" [class.reverse]="!sortOrder[1].direction">Gênero:</span></div>
+
+    <div class="col"><span (click)="orderBy(2)" [class.selected]="sortOrder[2].selected" [class.reverse]="!sortOrder[2].direction">Grupo:</span></div>
+
+    <div class="col"><span (click)="orderBy(3)" [class.selected]="sortOrder[3].selected" [class.reverse]="!sortOrder[3].direction">Idade<span class="d-md-none"> (anos)</span>:</span></div>
+  </div>
+
+  <!-- rows -->
+  <ul>
+    <li class="card item" *ngFor="let item of result" (click)="doAction(item)">
+      <div class="card-body d-flex table-row row-result p-2 align-items-center">
+        <div class="col-1 fig d-flex justify-content-center align-items-center"><img src="{{ item.photo }}"></div>
+        <div class="col">{{ item.artist }}</div>
+
+        <div class="col">
+          <span class="d-none d-md-block">{{ item.style.join('/') }}</span>
+          <span class="d-md-none">{{ item.style.join(', ') }}</span>
+        </div>
+
+        <div class="col">{{ item.group }}</div>
+        <div class="col">{{ item.age }} <span class="d-none d-md-inline-block">{{ ' anos' }}</span></div>
+      </div>
+    </li>
+  </ul>
+
+  <button class="btn btn-secondary mt-5 mb-5" (click)="doClean()">Voltar</button>
+</section>
+
+<!-- empty -->
+<ng-template #emptyState>
+  <section *ngIf="result?.length == 0" class="result pt-5 d-flex justify-content-center align-items-center search">
+    <div class="mt-3 d-flex table-row row-result p-2 align-items-center">
+      <div class="card shadow p-5">
+        <h2>Nenhum resultado para busca por <span>"{{ inputField }}"</span>.</h2>
+        <button class="mt-4 btn btn-secondary" (click)="doClean()">Voltar</button>
+      </div>
+    </div>
+  </section>
+</ng-template>

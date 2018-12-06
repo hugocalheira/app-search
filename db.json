@@ -1,0 +1,883 @@
+{
+  "session": {
+    "user": "Hugo Durães",
+    "pic": "https://cacm.acm.org/system/assets/0003/2486/091018_Getty_Angry-Robot.large.jpg?1536612386&1536612386"
+  },
+  "search": [
+    {
+      "keywords": [
+        "racionais mcs"
+      ],
+      "id": 1,
+      "artist": "Mano Brown",
+      "style": [
+        "Rap",
+        "Hip-Hop"
+      ],
+      "group": "Racionais Mc's",
+      "age": 51,
+      "photo": "http://www.radiocidadafm90-9.com.br/site/wp-content/uploads/2015/10/mano-brown.jpg"
+    },
+    {
+      "keywords": [
+        "racionais mcs"
+      ],
+      "id": 2,
+      "artist": "Ice Blue",
+      "style": [
+        "Rap",
+        "Hip-Hop"
+      ],
+      "group": "Racionais Mc's",
+      "age": 49,
+      "photo": "https://imagens.som13.com/2610251/medium_thumb.jpg"
+    },
+    {
+      "keywords": [
+        "racionais mcs"
+      ],
+      "id": 3,
+      "artist": "KL Jay",
+      "style": [
+        "Rap",
+        "Hip-Hop"
+      ],
+      "group": "Racionais Mc's",
+      "age": 48,
+      "photo": "data:image/jpeg;base64,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"
+    },
+    {
+      "keywords": [
+        "racionais mcs"
+      ],
+      "id": 4,
+      "artist": "Edi Rock",
+      "style": [
+        "Rap",
+        "Hip-Hop"
+      ],
+      "group": "Racionais Mc's",
+      "age": 50,
+      "photo": "https://yt3.ggpht.com/-gJPAuPpEFvw/AAAAAAAAAAI/AAAAAAAAAAA/9mMDYDYAUwY/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 5,
+      "artist": "Gabriel, O Pensador",
+      "style": [
+        "Rap"
+      ],
+      "group": "Gabriel, O Pensador",
+      "age": 50,
+      "photo": "https://yt3.ggpht.com/-iYDLc5NIiK8/AAAAAAAAAAI/AAAAAAAAAAA/StBoOmx2PYE/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 6,
+      "artist": "Raul Seixas",
+      "style": [
+        "Rock",
+        "Pop"
+      ],
+      "group": "Raul Seixas",
+      "age": 60,
+      "photo": "https://4.bp.blogspot.com/-I2-6pkkmZ6I/Wv9fHQ77HiI/AAAAAAAAC7w/8xOO71JfTrcZxmTQfJNZVbsOnVGxUFGKACLcBGAs/s100-c/raul%2Bseixas.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 7,
+      "artist": "Madonna",
+      "style": [
+        "Pop"
+      ],
+      "group": "Madonna",
+      "age": 60,
+      "photo": "https://yt3.ggpht.com/-ZBSb8I6yBCw/AAAAAAAAAAI/AAAAAAAAAAA/pwGT3OfYvE8/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 8,
+      "artist": "Lady Gaga",
+      "style": [
+        "Pop"
+      ],
+      "group": "Lady Gaga",
+      "age": 32,
+      "photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/ladygaga-1509626045.jpg?crop=0.636xw:1xh;center,top&resize=100:*"
+    },
+    {
+      "keywords": [],
+      "id": 9,
+      "artist": "Steve Harris",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 62,
+      "photo": "http://forbassplayersonly.com/wp-content/uploads/2015/06/steve_harris100.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 10,
+      "artist": "Bruce Dickinson",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 60,
+      "photo": "https://i1.sndcdn.com/artworks-000272210741-z28qo8-large.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 11,
+      "artist": "Dave Murray",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 61,
+      "photo": "https://yt3.ggpht.com/8VJsB-xt_AuYOKlhSBjf1RYIPW-9TdIdTFGtvBD1QpEAEukt949Km7_EOMYgNUtNe2p_-JB7ysgYuRY1GlI=s100-mo-c-c0xffffffff-rj-k-no"
+    },
+    {
+      "keywords": [],
+      "id": 12,
+      "artist": "Adrian Smith",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 61,
+      "photo": "https://s20.postimg.cc/ojtk3cxj1/000000adrianic4024.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 13,
+      "artist": "Janick Gers",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 61,
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoKVOotmm9NnrFnFt83Rilwp83pTznc-gkcNsLrtaOZlt7ylGRHw"
+    },
+    {
+      "keywords": [],
+      "id": 14,
+      "artist": "Nicko McBrain",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 66,
+      "photo": "https://classicsdujour.com/wp2015/wp-content/uploads/2017/06/nicko-mcbrain-cc-by-2.0-credit-adels-100x100.png"
+    },
+    {
+      "keywords": [],
+      "id": 15,
+      "artist": "Ozzy Osbourne",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Black Sabbath",
+      "age": 60,
+      "photo": "https://quenya101.files.wordpress.com/2011/05/ozzyosbourne.png?w=500"
+    },
+    {
+      "keywords": [],
+      "id": 16,
+      "artist": "Tony Iommi",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Black Sabbath",
+      "age": 60,
+      "photo": "https://www.weekendnotes.co.uk/im/001/05/tony-iommi12.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 17,
+      "artist": "Geezer Butler",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Black Sabbath",
+      "age": 60,
+      "photo": "http://forbassplayersonly.com/wp-content/uploads/2015/10/Geezer-Butler100.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 18,
+      "artist": "Bill Ward",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Black Sabbath",
+      "age": 60,
+      "photo": "https://4imagens.som13.com/982676/medium_thumb.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 19,
+      "artist": "Ronnie James Dio",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Dio",
+      "age": 60,
+      "photo": "https://imagens.som13.com/2773803/medium_thumb.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 20,
+      "artist": "Lemmy Kilmister",
+      "style": [
+        "Heavy Metal",
+        "Rock"
+      ],
+      "group": "Motörhead",
+      "age": 60,
+      "photo": "http://forbassplayersonly.com/wp-content/uploads/2015/12/Lemmy-health-nut.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 21,
+      "artist": "Ian Gillan",
+      "style": [
+        "Hard Rock",
+        "Rock"
+      ],
+      "group": "Deep Purple",
+      "age": 60,
+      "photo": "http://www.larockaforte.com/wp-content/uploads/2017/09/Ian-Gillan-100x100.jpg"
+    },
+    {
+      "keywords": [
+        "axe"
+      ],
+      "id": 22,
+      "artist": "Ivete Sangalo",
+      "style": [
+        "Axé",
+        "Pop"
+      ],
+      "group": "Ivete Sangalo",
+      "age": 60,
+      "photo": "https://yt3.ggpht.com/-Ri23pXDSnYI/AAAAAAAAAAI/AAAAAAAAAAA/3WMn2VNa3vg/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 23,
+      "artist": "Caetano Veloso",
+      "style": [
+        "MPB",
+        "Tropicália"
+      ],
+      "group": "Caetano Veloso",
+      "age": 60,
+      "photo": "http://www.wikimusica.info/wp-content/uploads/2016/04/caetanoveloso-100x100.jpg"
+    },
+    {
+      "keywords": [],
+      "id": 24,
+      "artist": "Rita Lee",
+      "style": [
+        "MPB",
+        "Rock"
+      ],
+      "group": "Mutantes",
+      "age": 60,
+      "photo": "https://www.reporterpb.com.br/thumb.php?dir=images/noticias/&src=0a4f3815858ac10fe0.jpg"
+    },
+    {
+      "artist": "Andreas Kisser",
+      "style": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "group": "Sepultura",
+      "age": 46,
+      "photo": "https://imagens.som13.com/2197272/medium_thumb.jpg",
+      "keywords": [],
+      "id": 25
+    },
+    {
+      "artist": "Paulo Xisto",
+      "style": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "group": "Sepultura",
+      "age": 45,
+      "photo": "https://photos.smugmug.com/Music/International-Bands/Sepultura-BRA-Graspop-Metal-Meeting-2017-Dessel/i-WJbSMbh/0/2101bb99/Ti/HUG_4172-Ti.jpg",
+      "keywords": [],
+      "id": 26
+    },
+    {
+      "artist": "Derrick Green",
+      "style": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "group": "Sepultura",
+      "age": 45,
+      "photo": "https://imagens.som13.com/2954688/medium_thumb.jpg",
+      "keywords": [],
+      "id": 27
+    },
+    {
+      "artist": "Michel Teló",
+      "style": [
+        "Sertanejo",
+        "Sertanejo Universitário"
+      ],
+      "group": "Michel Teló",
+      "age": 45,
+      "photo": "http://ru.tunes.zone/poster/artist/100x100/32/70/11/0/327011-fotografii-iz-michel-tel-34.jpg",
+      "keywords": [
+        "michel telo"
+      ],
+      "id": 28
+    },
+    {
+      "artist": "Carlinhos Brown",
+      "style": [
+        "Axé",
+        "MPB",
+        "Samba"
+      ],
+      "group": "Carlinhos Brown",
+      "age": 45,
+      "photo": "https://www.estrelando.com.br/uploads/2018/02/16/carlinhos-1518788913.100x100.jpg",
+      "keywords": [
+        "axe"
+      ],
+      "id": 29
+    },
+    {
+      "artist": "Gilberto Gil",
+      "style": [
+        "MPB",
+        "Tropicália"
+      ],
+      "group": "Gilberto Gil",
+      "age": 45,
+      "photo": "https://cdn-s-www.estrepublicain.fr/images/C8E7279E-0D62-4B2F-AB67-AB24E0E45DEA/ERV_05/gilberto-gil-au-chapiteau-samedi-18-octobre-nancy-jazz-pulsations-photo-alexandre-marchi-1420434707.jpg",
+      "keywords": [],
+      "id": 30
+    },
+    {
+      "artist": "Milton Nascimento",
+      "style": [
+        "MPB"
+      ],
+      "group": "Milton Nascimento",
+      "age": 72,
+      "photo": "https://www.ciframelodica.com.br/img/squares/100/milton_nascimento.jpg",
+      "keywords": [],
+      "id": 31
+    },
+    {
+      "artist": "Reginaldo Rossi",
+      "style": [
+        "Brega"
+      ],
+      "group": "Reginaldo Rossi",
+      "age": 45,
+      "photo": "http://planetarei.com.br/betobrito/blog/4anos/P18.jpg",
+      "keywords": [],
+      "id": 32
+    },
+    {
+      "artist": "Herbert Vianna",
+      "style": [
+        "Rock"
+      ],
+      "group": "Paralamas do Sucesso",
+      "age": 47,
+      "photo": "https://www.horoscopovirtual.com.br/imagem/famosos/herbert-vianna.jpg",
+      "keywords": [],
+      "id": 33
+    },
+    {
+      "artist": "Humberto Gessinger",
+      "style": [
+        "Rock"
+      ],
+      "group": "Engenheiros do Hawai",
+      "age": 47,
+      "photo": "https://5imagens.som13.com/1957871/medium_thumb.jpg",
+      "keywords": [],
+      "id": 34
+    },
+    {
+      "artist": "Cazuza",
+      "style": [
+        "Rock"
+      ],
+      "group": "Barão Vermelho",
+      "age": 47,
+      "photo": "https://tibiaking.com/uploads/profile/photo-thumb-115032.jpg",
+      "keywords": [],
+      "id": 35
+    },
+    {
+      "artist": "Cher",
+      "style": [
+        "Dance",
+        "Eletrônica"
+      ],
+      "group": "Cher",
+      "age": 61,
+      "photo": "https://media.vanityfair.com/photos/5b58903b0e3e5b3b7c74e90d/1:1/w_100,c_limit/cher-portofino-vacation.jpg",
+      "keywords": [],
+      "id": 36
+    },
+    {
+      "artist": "Kerry King",
+      "style": [
+        "Thrash Metal",
+        "Metal"
+      ],
+      "group": "Slayer",
+      "age": 61,
+      "photo": "https://imagens.som13.com/2568517/medium_thumb.jpg",
+      "keywords": [],
+      "id": 37
+    },
+    {
+      "artist": "Eloy Casagrande",
+      "style": [
+        "Heavy Metal",
+        "Thrash Metal"
+      ],
+      "group": "Sepultura",
+      "age": 45,
+      "photo": "https://imagens.som13.com/2954690/medium_thumb.jpg",
+      "keywords": [],
+      "id": 38
+    },
+    {
+      "artist": "Diana",
+      "style": [
+        "Romântica",
+        "Brega"
+      ],
+      "group": "Diana",
+      "age": 72,
+      "photo": "https://img.discogs.com/oGit8827YYwPqZFlV3A4dxJ9IA8=/100x100/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-2847578-1303778822.jpeg.jpg",
+      "keywords": [],
+      "id": 39
+    },
+    {
+      "artist": "Diana Ross",
+      "style": [
+        "Pop",
+        "Jazz",
+        "R&B"
+      ],
+      "group": "Diana Ross",
+      "age": 74,
+      "photo": "https://yt3.ggpht.com/EO1BT9YkM_doVR-P-D5AXVxuLhPPPpa0Xz7xHTCh3rsHQewEXXg7pR8ZFVGB-8Cxnzox9gWoWbQf7ZYf6g=s100-mo-c-c0xffffffff-rj-k-no",
+      "keywords": [],
+      "id": 40
+    },
+    {
+      "artist": "Waldick Soriano",
+      "style": [
+        "Romântica",
+        "Brega"
+      ],
+      "group": "Waldick Soriano",
+      "age": 67,
+      "photo": "https://yt3.ggpht.com/Y9J3v2DMzgnFlkS4HmiHKm3aqxP4dgWNf7l5unvL99K4dQ-GNPkCeddhpIujfXpGpohVyGI3XZ5dr_GdFQ=s100-mo-c-c0xffffffff-rj-k-no",
+      "keywords": [],
+      "id": 41
+    },
+    {
+      "artist": "Andi Deris",
+      "style": [
+        "Heavy Metal",
+        "Hard Rock"
+      ],
+      "group": "Helloween",
+      "age": 52,
+      "photo": "https://yt3.ggpht.com/4JM5B8mopI2c8SaCRIlq1P-Dp3uVuPXdgPK3m5mhQzAFMuOQzJqmZFGvBC1BbN5z8Z8Egljwz4vsLKfS=s100-mo-c-c0xffffffff-rj-k-no",
+      "keywords": [],
+      "id": 42
+    },
+    {
+      "artist": "Paul Stanley",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 66,
+      "photo": "http://images6.fanpop.com/image/photos/40500000/Paul-m-paul-stanley-40566872-100-100.jpg",
+      "keywords": [],
+      "id": 43
+    },
+    {
+      "artist": "Gene Simmons",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 69,
+      "photo": "http://static1.purepeople.com/articles/8/46/81/8/@/338572-gene-simmons-bassiste-de-kiss-en-100x100-2.jpg",
+      "keywords": [],
+      "id": 44
+    },
+    {
+      "artist": "Ace Frehley",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 67,
+      "photo": "http://images6.fanpop.com/image/photos/33200000/-Ace-Frehley-kiss-33226161-100-100.jpg",
+      "keywords": [],
+      "id": 45
+    },
+    {
+      "artist": "Peter Criss",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 72,
+      "photo": "https://yt3.ggpht.com/-VdKrDmYPvoQ/AAAAAAAAAAI/AAAAAAAAAAA/M0ez23mQeQo/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+      "keywords": [],
+      "id": 46
+    },
+    {
+      "artist": "Eric Carr",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 41,
+      "photo": "http://images6.fanpop.com/image/photos/37800000/Eric-Carr-The-Fox-kiss-37801676-100-100.jpg",
+      "keywords": [],
+      "id": 47
+    },
+    {
+      "artist": "Vinnie Vincent",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 66,
+      "photo": "https://imagens.som13.com/2598358/medium_thumb.jpg",
+      "keywords": [],
+      "id": 48
+    },
+    {
+      "artist": "Mark St. John",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 51,
+      "photo": "https://yt3.ggpht.com/6F6YEmczK7I4rrj-4InBrIGSkFroOuGbxosHf7pexlbIuL2legu0zLUds5MebZ73lOKBIzrJEb4YXXI2=s100-mo-c-c0xffffffff-rj-k-no",
+      "keywords": [],
+      "id": 49
+    },
+    {
+      "artist": "Bruce Kulick",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 64,
+      "photo": "https://classicsdujour.com/wp2015/wp-content/uploads/2017/12/bruce-kulick-2012-grandfunkrailroad-100x100.jpg",
+      "keywords": [],
+      "id": 50
+    },
+    {
+      "artist": "Tommy Thayer",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 57,
+      "photo": "https://imagens.som13.com/2623803/medium_thumb.jpg",
+      "keywords": [],
+      "id": 51
+    },
+    {
+      "artist": "Eric Singer",
+      "style": [
+        "Hard Rock"
+      ],
+      "group": "Kiss",
+      "age": 60,
+      "photo": "https://imagens.som13.com/2614862/medium_thumb.jpg",
+      "keywords": [],
+      "id": 52
+    },
+    {
+      "artist": "Luiz Gonzaga",
+      "style": [
+        "Forró"
+      ],
+      "group": "Luiz Gonzaga",
+      "age": 77,
+      "photo": "https://i1.sndcdn.com/artworks-000149554002-w1lniw-large.jpg",
+      "keywords": [],
+      "id": 53
+    },
+    {
+      "artist": "Flávio José",
+      "style": [
+        "Forró"
+      ],
+      "group": "Flávio José",
+      "age": 55,
+      "photo": "http://2.bp.blogspot.com/-29MLQtZZoY0/VcO0q15adeI/AAAAAAAACOg/kEMlIOlSnAI/s1600/flavio%2Bjose.jpg",
+      "keywords": [],
+      "id": 54
+    },
+    {
+      "artist": "Alcione",
+      "style": [
+        "Samba"
+      ],
+      "group": "Alcione",
+      "age": 70,
+      "photo": "https://www.mellho.com/autores/1677.jpg",
+      "keywords": [],
+      "id": 55
+    },
+    {
+      "artist": "Zé Ramalho",
+      "style": [
+        "MPB","Folk"
+      ],
+      "group": "Zé Ramalho",
+      "age": 68,
+      "photo": "https://i1.sndcdn.com/artworks-000136486461-hkjeor-large.jpg",
+      "keywords": ["ze"],
+      "id": 56
+    },
+    {
+      "artist": "Elba Ramalho",
+      "style": [
+        "Xote","Baião","Frevo"
+      ],
+      "group": "Elba Ramalho",
+      "age": 67,
+      "photo": "http://www.clickletras.com.br/uploads/artistas/thumbs/elba-ramalho.jpg",
+      "keywords": [],
+      "id": 57
+    },
+    {
+      "artist": "Geraldo Azevedo",
+      "style": [
+        "MPB","Forró","Frevo"
+      ],
+      "group": "Geraldo Azevedo",
+      "age": 73,
+      "photo": "https://www.jornalportaldosertao.com/wp-content/uploads/2018/06/WhatsApp-Image-2018-06-12-at-10.12.16-100x100.jpeg",
+      "keywords": [],
+      "id": 58
+    },
+    {
+      "artist": "Zé Geraldo",
+      "style": [
+        "Folk Rock","Jovem Guarda"
+      ],
+      "group": "Zé Geraldo",
+      "age": 73,
+      "photo": "https://i1.sndcdn.com/artworks-000054297209-0l3p1l-large.jpg",
+      "keywords": ["ze"],
+      "id": 59
+    },
+    {
+      "artist": "Geraldo Vandré",
+      "style": [
+        "MPB","Bossa Nova"
+      ],
+      "group": "Geraldo Vandré",
+      "age": 82,
+      "photo": "http://redenews360.com.br/wp-content/uploads/2018/03/Vandr%C3%A9-100x100.jpg",
+      "keywords": [],
+      "id": 60
+    },
+    {
+      "artist": "Vinícius de Moraes",
+      "style": [
+        "MPB","Bossa Nova"
+      ],
+      "group": "Vinícius de Moraes",
+      "age": 67,
+      "photo": "https://cache.skoob.com.br/local/images//iBX0bEUK7vLOpF_-3eXDFjUZlMQ=/100x100/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/autores/114/1141282921658G.jpg",
+      "keywords": [],
+      "id": 61
+    },
+    {
+      "artist": "50 Cent",
+      "style": [
+        "Rap"
+      ],
+      "group": "50 Cent",
+      "age": 43,
+      "photo": "https://media.npr.org/assets/img/2011/06/17/50cent_sq-22d08a19558a1779f3e5f4197fa111844e3cd2fd-s100-c85.jpg",
+      "keywords": ["Fifty Cent"],
+      "id": 62
+    },
+    {
+      "artist": "Tupac Shakur",
+      "style": [
+        "Rap"
+      ],
+      "group": "Tupac Shakur",
+      "age": 25,
+      "photo": "https://stupiddope.com/wp-content/uploads/2016/12/tupac-nominated-rock-and-roll-hall-of-fame-1-100x100.jpeg",
+      "keywords": ["2Pac", "2 Pac"],
+      "id": 63
+    },
+    {
+      "artist": "Joey Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 50,
+      "photo": "https://v.dreamwidth.org/9890905/2362955",
+      "keywords": [],
+      "id": 64
+    },
+    {
+      "artist": "Johnny Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 56,
+      "photo": "https://yt3.ggpht.com/-EzHkkLi5r7g/AAAAAAAAAAI/AAAAAAAAAAA/cHbg4Z64nZs/s100-mo-c-c0xffffffff-rj-k-no/photo.jpg",
+      "keywords": [],
+      "id": 65
+    },
+    {
+      "artist": "C.J. Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 52,
+      "photo": "https://imagens.som13.com/1963232/medium_thumb.jpg",
+      "keywords": [],
+      "id": 66
+    },
+    {
+      "artist": "Dee Dee Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 51,
+      "photo": "http://forbassplayersonly.com/wp-content/uploads/2015/01/deedeeramone100.jpg",
+      "keywords": [],
+      "id": 67
+    },
+    {
+      "artist": "Marky Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 62,
+      "photo": "https://m.media-amazon.com/images/M/MV5BMTcyODg1Nzc3Ml5BMl5BanBnXkFtZTgwMjQ1NjMwNjE@._V1_UX100_CR0,0,100,100_AL_.jpg",
+      "keywords": [],
+      "id": 68
+    },
+    {
+      "artist": "Tommy Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 62,
+      "photo": "https://mediamass.net/jdd/public/documents/thumbs/celebrities100/1285.jpg",
+      "keywords": [],
+      "id": 69
+    },
+    {
+      "artist": "Richie Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 61,
+      "photo": "https://imagens.som13.com/2678715/medium_thumb.jpg",
+      "keywords": [],
+      "id": 70
+    },
+    {
+      "artist": "Elvis Ramone",
+      "style": [
+        "Punk","Rock"
+      ],
+      "group": "Ramones",
+      "age": 63,
+      "photo": "https://notednames.com/ImgSmall/vafl_Clem%20Burke.jpg",
+      "keywords": ["Clem Burke"],
+      "id": 71
+    },
+    {
+      "artist": "Elvis Presley",
+      "style": [
+        "Rock'n'Roll"
+      ],
+      "group": "Elvis Presley",
+      "age": 42,
+      "photo": "https://img.wikinut.com/img/1h40v6fddn9h_0ix/jpeg/preview/Elvis-Presley.jpeg",
+      "keywords": ["Rock n roll", "rock 'n roll", "rock n' roll"],
+      "id": 72
+    },
+    {
+      "artist": "Paul Di'anno",
+      "style": [
+        "Heavy Metal","Punk"
+      ],
+      "group": "Iron Maiden",
+      "age": 60,
+      "photo": "http://planetmosh.com/wp-content/uploads/2013/12/HRHVII_www.seanlarkin.co_.uk_34751-100x100.jpg",
+      "keywords": ["Paul Dianno"],
+      "id": 73
+    },
+    {
+      "artist": "Blaze Bayley",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 55,
+      "photo": "https://famousheights.net/files/styles/thumbnail/public/bayley-blaze-photo.jpg?itok=PC6FXVhZ",
+      "keywords": [],
+      "id": 74
+    },
+    {
+      "artist": "Clive Burr",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 56,
+      "photo": "https://imagens.som13.com/2586720/medium_thumb.jpg",
+      "keywords": [],
+      "id": 75
+    },
+    {
+      "artist": "Dennis Stratton",
+      "style": [
+        "Heavy Metal"
+      ],
+      "group": "Iron Maiden",
+      "age": 56,
+      "photo": "https://imagens.som13.com/2766540/medium_thumb.jpg",
+      "keywords": [],
+      "id": 75
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<section class="d-flex justify-content-center align-items-center search">
+  <form class="d-flex justify-content-center" [ngClass]="widthclass" [formGroup]="searchForm" (submit)="doSearch()" novalidate>
+    <div class="form-group" [ngClass]="widthclass">
+      <div class="input-group">
+
+        <input type="text" formControlName="searchField" class="form-control form-control-lg search-field" aria-describedby="search" placeholder="Pesquise por nome, gênero ou grupo..." aria-describedby="button-addon4">
+
+        <div class="input-group-append" id="button-addon4">
+          <button class="btn btn-search" type="submit"></button>
+        </div>
+
+      </div>
+    </div>
+  </form>
+</section>

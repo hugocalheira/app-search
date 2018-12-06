@@ -1,0 +1,85 @@
+<div class="d-flex flex-column h-100 justify-content-between">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top ">
+    <a class="navbar-brand mr-auto" [routerLink]="['/']"><span class="app-logo">App</span>Search</a>
+
+    <div class="d-flex justify-content-end">
+
+      <!-- search field -->
+      <!-- <form class="d-flex justify-content-center form-nav formSearchNav"  novalidate>
+        <div class="form-group w-100 mb-0 ">
+          <div class="input-group">
+
+            <input type="text" class="form-control form-control-lg search-field" aria-describedby="search" placeholder="Pesquise por nome, gênero ou grupo..." aria-describedby="button-addon4">
+
+            <div class="input-group-append" id="button-addon4">
+              <button class="btn btn-search" type="submit"></button>
+            </div>
+
+          </div>
+        </div>
+      </form> -->
+      <app-search-field *ngIf="_service.result" widthclass="w-100" class="formSearchNav"  (searchResult)="receiveData($event)"></app-search-field>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+        <div class="navbar-nav d-flex align-items-center">
+
+            <!-- user btn-menu -->
+            <div class="btn-group" dropdown placement="bottom right">
+              <button id="button-alignment" dropdownToggle type="button"
+                      class="btn btn-profile dropdown-toggle d-flex align-items-center" aria-controls="dropdown-alignment">
+                      <span class="pic mr-3" [ngStyle]="profileStyle" ></span>{{ session?.user }}<span class="caret"></span>
+              </button>
+
+              <!-- user menu -->
+              <ul id="dropdown-alignment" *dropdownMenu class="dropdown-menu dropdown-menu-right"
+                  role="menu" aria-labelledby="button-alignment">
+                <li class="menuitem d-flex justify-content-center align-items-center search pic" [ngStyle]="profileStyle">
+                </li>
+
+                <li role="menuitem"><a class="dropdown-item" [routerLink]="['/']">Perfil</a></li>
+                <li role="menuitem"><a class="dropdown-item" [routerLink]="['/']">Configurações</a></li>
+                <li role="menuitem"><a class="dropdown-item" [routerLink]="['/']">Registro de atividades</a></li>
+                <li class="divider dropdown-divider"></li>
+                <li role="menuitem"><a class="dropdown-item" [routerLink]="['/']">Sair</a></li>
+              </ul>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm border-top">
+      <div class="navbar-collapse">
+        <span class="navbar-text mr-auto">
+          &copy; 2018 AppSearch
+        </span>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/legal']" routerLinkActive="active">Legal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/privacidade']" routerLinkActive="active">Privacidade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/cookies']" routerLinkActive="active">Cookies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['/sobre']" routerLinkActive="active">Sobre</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</div>
